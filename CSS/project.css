@@ -1,0 +1,72 @@
+.project1{
+    background-image: url(../img/pro1.png);
+    height: 200px;
+ 
+   
+ }
+ .project2{
+    background-image: url(../img/pro2.png);
+    height: 200px;
+ 
+ }
+ .project3{
+    background-image: url(../img/pro3.png);
+    height: 200px;
+ 
+ }
+ .project4{
+    background-image: url(../img/pro4.png);
+    height: 200px;
+ 
+ }
+
+ .project21{
+   background-image: url(../img/sblog.png);
+   height: 200px;
+
+  
+}
+.project22{
+   background-image: url(../img/sblog1.jpg);
+   height: 200px;
+
+}
+.project23{
+   background-image: url(../img/sblog2.png);
+   height: 200px;
+
+}
+.project24{
+   background-image: url(../img/sblog3.png);
+   height: 200px;
+
+}
+ .subp1{
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100%;
+    height:100%;
+    float: left;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid gold;
+    border-top: 4px solid gold;
+    display:none;
+    padding: 10px;
+  
+ }
+ 
+ .project1:hover .subp1{
+    display:inline-block;
+ }
+ .project2:hover .subp1{
+    display:inline-block;
+ }
+ .project3:hover .subp1{
+    display:inline-block;
+ }
+ .project4:hover .subp1{
+    display:inline-block;
+ }
+ h4{
+    font-size: 20px;
+ }

@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+/* page loding */
+ #loding{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background:#fff  url('https://www.bing.com/th/id/OGC.45124d126d0f0b6d8f5c4d635d466246?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f278570%2fscreenshots%2f3044674%2fpreloader_ps_fast.gif&ehk=lKeRgVO5aVM0BQfYACKznQ7XkOQREo9lLA%2fPRvTN%2fqg%3d') no-repeat center;
+   z-index: 99999;
+   background-size:30% 40%;
+
+ }
+ 
+ /* navbar section */
+ .logo{
+    margin-left: 70px;
+    height: 71px;
+    
+ }
+ .navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    color: black;
+    margin-left:25px;
+ }
+ .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(250, 11, 31);
+ }
+ .navbar-light .navbar-nav .nav-link:hover .carrers-drop{
+    display:block !important;
+ }
+ .navbar{
+     background-color: #fffcfca8;
+ }
+ .nav-icon{
+    margin-top: 3px;
+    font-size: 25px;
+    cursor: pointer;
+ }
+ .nav-icon1{
+   margin-top: 3px;
+   font-size: 25px;
+   cursor: pointer;
+    margin-left: -35px !important
+ }
+ .bi-instagram{
+    color:rgb(250, 11, 31);
+ }
+ .bi-linkedin{
+    color: rgb(53, 20, 131);
+    
+ }
+ .carrers-drop{
+    position: absolute;
+    top: 69px;
+    right: 211px;
+    background-color: black;
+    padding:25px;
+    display: none;
+ }
+ .carrers-drop li{
+    list-style-type: none;
+ }
+ .carrers-drop li a{
+  
+    color: white !important;
+    margin-top: 4px;
+ }
+ .dropdown-item{
+    margin: 0 auto;
+ }
+ .dropdown-item:hover{
+   color: rgb(255, 0, 179) !important;
+ }
+ .navbar-toggler{
+    border: none;
+ }
+ .navbar-toggler:focus{
+    box-shadow: none;
+ }
+ 
+
+
+/* slider */
+
+.slider_img1{
+    height: 680px;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/slide1.webp);
+}
+.slider_img2{
+    height: 680px;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/sblog1.jpg);
+}
+.slider_img3{
+    height: 680px;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/sblog.png);
+}
+.slider_img4{
+   height: 680px;
+   width: 100%;
+   background-position: center;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-image: url('../img/sblog2.png');
+}
+/* slider text */
+.slider_conternt{
+    height: 680px;
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(215, 211, 220,0);
+    position: absolute;
+
+}
+.slider_conternt h2{
+    font-size: 41px;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+.carousel-indicators [data-bs-target]{
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+}
+
+
+
+/* indicater */
+/* .carousel-indicators{
+    height: 60px!important;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+   
+} */
+
+
+
+/* letest Project */
+
+.project h6{
+    font-size: 14px;
+    color: #999;
+
+    font-weight: 400;
+}
+.pimg{
+ overflow: hidden;
+}
+.pimg img{
+   transition: all 0.7s ease-in-out;
+}
+.pimg img:hover{
+   transform: scale(1.2);
+}
+
+/* Design service */
+
+.design h3,p{
+    font-weight: bold;
+}
+iframe{
+   border: 3px solid #787d7e;
+}
+
+.design-info{
+   font-weight:500;
+   line-height:35px;
+}
+.btn-know{
+   background-color:rgb(236, 25, 166);
+   color: white;
+   padding: 10px;
+   width: 297px;
+   border-radius: 38px;
+   font-size: 18px;
+}
+.btn-know:hover{
+   border: 1px solid rgb(153, 16, 96);
+   background-color: white;
+   
+}
+.right-arrow i{
+   color: black;
+   font-size: 30px;
+}
+
+/* our offering */
+
+.offer_content {
+   color: rgb(61, 53, 53);
+   font-size: 14px;
+   line-height: 2.5;
+}
+
+/* statistics */
+
+.statistics{
+   background-color: #a7e3ff2b;
+}
+.record{
+   background-color: #ffffff1f;
+}
+.record p{
+   color: darkslateblue;
+   margin-top: 15px;
+}
+
+/* client */
+.client{
+   background-image: url(../img/client.png);
+   height:auto;
+   background-size: cover;
+ }
+ .client iframe{
+    border:none;  
+ }
+ .client1 p{
+    font-weight: normal;
+    line-height: 30px;
+ }
+ .bi-quote{
+    font-size: 30px;
+    margin-right: 10px;
+ }
+ .client img{
+    border: 2px solid white;
+ }
+ 
+
+/* Blog */
+
+.blog_date{
+   color: #999;
+   font-weight: 400;
+}
+
+.blog_para{
+   font-size:16px;
+   color: rgb(82, 75, 75);
+   font-weight: 400;
+}
+.blog{
+   overflow: hidden;
+  }
+  .blog img{
+     transition: all 0.7s ease-in-out;
+  }
+  .blog img:hover{
+     transform: scale(1.2);
+  }
+
+/* foot */
+.foot_img{
+   background-image: url(../img/foot.png);
+   height: 250px;
+   width: 100%;
+   background-size: cover;
+}
+
+
+/* footer */
+.foot h4,p{
+   color: white;
+   font-weight: normal;
+}
+
+.ficon i{
+   color: white;
+    /* margin-left: 15px; */
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.ficon0{
+   margin-left: -30px;
+   position: relative;
+   top: 10px;
+   font-size: 20px;
+ }
+.ficon1{
+  margin-left: -30px;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+.ficon1:hover{
+   color: blue;
+}
+.ficon2{
+   margin-left: -30px;
+   position: relative;
+   top: 10px;
+   font-size: 20px;
+ }
+ .ficon3{
+   margin-left: -30px;
+   position: relative;
+   top: 10px;
+   font-size: 20px;
+ }
+.ficon i:hover{
+   cursor: pointer;
+   color: rgb(240, 12, 171);
+}
+
+
+
+
+/* Footer Media query */
+@media(max-width:991px){
+   .foot1{
+      margin-top: 20px;
+   }
+   .ficon i{
+      margin-right: 10px;
+   }
+}
+
+
+
+
+
+
+
+
+/* About page************************************************************************** */
+
+.about_body{
+   background-image: url(../img/about.png);
+ 
+   height: 300px;
+}
+.about_body h3{
+   color: #fff;
+    font-family: hypatia-sans-pro;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 250px;
+}
+.about_return{
+   background-color:rgb(16 11 11 / 28%);
+   margin-top: -30px;
+}
+.about_return h5,a{
+   color: white;
+   margin-left: 50px;
+   font-family: sans-serif;
+   text-decoration: none;
+}
+.about_return h5,a:hover{
+   color: white;
+}
+
+
+/* our story */
+
+.our_story{
+   background-image: url(../img/about2.png);
+
+}
+.our_text{
+   font-size: 45px;
+   margin-top: 130px;
+}
+
+
+/* value */
+.value_img{
+   height: 80px;
+   width: 70px;
+   margin: 0 auto;
+}
+
+
+/* our project */
+.our_pro{
+   background-image: url(../img/about3.png);
+}
+.img-fluid{
+   width: 350px;
+   height: 230px;
+}
+
+/* WHY CHOOSE US */
